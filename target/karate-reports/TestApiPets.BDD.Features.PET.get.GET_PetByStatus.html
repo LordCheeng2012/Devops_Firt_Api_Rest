@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"8b64aa12-17c1-42bf-8e47-c920a6a069b6",karate_version:"1.5.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>TestApiPets.BDD.Features.PET.get.GET_PetByStatus</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-03-30 07:22:52 p. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:16]"><span>[1.1:16]</span> <span>buscar mascota por su status ok</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.2:17]"><span>[1.2:17]</span> <span>buscar mascota por su status ok</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.3:18]"><span>[1.3:18]</span> <span>buscar mascota por su status ok</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">TestApiPets/BDD/Features/PET/get/GET_PetByStatus.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">yo como qa deseo listar las mascotas por su status</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:16]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Happypath</a><a class="badge badge-primary" href="karate-tags.html">PetByStatus</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:16]</span>
+                <span class="scenario-name">buscar mascota por su status ok</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1380</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:16]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:16]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def URL = karate.get(&#39;urlBase&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.3">19:22:50.139 karate.env entorno de anbiente es : null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:16]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def path = &#39;/pet/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:16]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def ByStatus = &#39;findByStatus&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:16]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL+path+ByStatus)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.6">19:22:50.195 urlBase is: https://petstore.swagger.io/v2/pet/findByStatus 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url URL + path + ByStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param status = &#39;available&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1361</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.12">19:22:50.486 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=available
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+19:22:51.512 response time in milliseconds: 994
+1 &lt; 200
+1 &lt; Date: Mon, 31 Mar 2025 00:22:51 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:4,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;Dog 1&quot;,&quot;photoUrls&quot;:[&quot;url1&quot;,&quot;url2&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;tag2&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:7,&quot;category&quot;:{&quot;id&quot;:4,&quot;name&quot;:&quot;Lions&quot;},&quot;name&quot;:&quot;Lion 1&quot;,&quot;photoUrls&quot;:[&quot;url1&quot;,&quot;url2&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag1&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;tag2&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:8,&quot;category&quot;:{&quot;id&quot;:4,&quot;name&quot;:&quot;Lions&quot;},&quot;name&quot;:&quot;Lion 2&quot;,&quot;photoUrls&quot;:[&quot;url1&quot;,&quot;url2&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag2&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;tag3&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:12,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:17,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;morce&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:18,&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:19,&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:89,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;karpuz&quot;},&quot;name&quot;:&quot;cekirdekli&quot;,&quot;photoUrls&quot;:[&quot;stringkırmızı&quot;,&quot;kırmızıStr&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Adana Karpuzu&quot;},{&quot;id&quot;:1,&quot;name&quot;:&quot;Tatlı&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:123456,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;Dog&quot;},&quot;name&quot;:&quot;Hav&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:123461,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140491042131,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:5489,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Cat&quot;},&quot;name&quot;:&quot;Missi&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[{&quot;id&quot;:35,&quot;name&quot;:&quot;British cat&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140491042133,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140491042134,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9062,&quot;category&quot;:{&quot;id&quot;:8857,&quot;name&quot;:&quot;lizard&quot;},&quot;name&quot;:&quot;Junko&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/vaughanmoffitt/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:8,&quot;name&quot;:&quot;maroon&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:1186,&quot;category&quot;:{&quot;id&quot;:8403,&quot;name&quot;:&quot;clam&quot;},&quot;name&quot;:&quot;Sharita&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/adamsxu/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:8,&quot;name&quot;:&quot;salmon&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140491042142,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140491042143,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140491042152,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180179,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;test&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180183,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180186,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180187,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180188,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180189,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180190,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180191,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180192,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:5272,&quot;category&quot;:{&quot;id&quot;:3448,&quot;name&quot;:&quot;yak&quot;},&quot;name&quot;:&quot;Leopoldo&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/puzik/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:8,&quot;name&quot;:&quot;magenta&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:5435,&quot;category&quot;:{&quot;id&quot;:7331,&quot;name&quot;:&quot;gnat&quot;},&quot;name&quot;:&quot;Jody&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/nacho/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:5,&quot;name&quot;:&quot;fuchsia&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:8799,&quot;category&quot;:{&quot;id&quot;:3919,&quot;name&quot;:&quot;tortoise&quot;},&quot;name&quot;:&quot;Ngan&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/shanehudson/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;azure&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180194,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180198,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:488,&quot;name&quot;:&quot;Vanessa Sullivan&quot;,&quot;photoUrls&quot;:[&quot;https://picsum.photos/416/422&quot;],&quot;tags&quot;:[{&quot;id&quot;:306,&quot;name&quot;:&quot;LightCyan&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:734,&quot;category&quot;:{&quot;id&quot;:111,&quot;name&quot;:&quot;Stephanie Bender&quot;},&quot;name&quot;:&quot;Robert Jimenez&quot;,&quot;photoUrls&quot;:[&quot;https://dummyimage.com/536x863&quot;],&quot;tags&quot;:[{&quot;id&quot;:249,&quot;name&quot;:&quot;WhiteSmoke&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:676,&quot;category&quot;:{&quot;id&quot;:155,&quot;name&quot;:&quot;Mx. Sheri Fisher MD&quot;},&quot;name&quot;:&quot;James Boone&quot;,&quot;photoUrls&quot;:[&quot;https://picsum.photos/885/920&quot;],&quot;tags&quot;:[{&quot;id&quot;:442,&quot;name&quot;:&quot;MediumBlue&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:521,&quot;category&quot;:{&quot;id&quot;:511,&quot;name&quot;:&quot;Susan Wilson&quot;},&quot;name&quot;:&quot;Robert Hanson&quot;,&quot;photoUrls&quot;:[&quot;https://dummyimage.com/440x210&quot;],&quot;tags&quot;:[{&quot;id&quot;:705,&quot;name&quot;:&quot;NavajoWhite&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:275,&quot;category&quot;:{&quot;id&quot;:755,&quot;name&quot;:&quot;Tammy Stevens&quot;},&quot;name&quot;:&quot;Sarah Castro&quot;,&quot;photoUrls&quot;:[&quot;https://placekitten.com/889/903&quot;],&quot;tags&quot;:[{&quot;id&quot;:588,&quot;name&quot;:&quot;LightCyan&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:2234,&quot;category&quot;:{&quot;id&quot;:2690,&quot;name&quot;:&quot;ox&quot;},&quot;name&quot;:&quot;Truman&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/enda/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:7,&quot;name&quot;:&quot;orange&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:179,&quot;category&quot;:{&quot;id&quot;:272,&quot;name&quot;:&quot;Vanessa Singh&quot;},&quot;photoUrls&quot;:[&quot;https://picsum.photos/279/763&quot;],&quot;tags&quot;:[{&quot;id&quot;:802,&quot;name&quot;:&quot;LightSalmon&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180218,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180220,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:101,&quot;category&quot;:{&quot;id&quot;:102,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;https://poriruacity.govt.nz/services/animals/&quot;],&quot;tags&quot;:[{&quot;id&quot;:103,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180226,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180230,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180231,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180232,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:4830,&quot;category&quot;:{&quot;id&quot;:3351,&quot;name&quot;:&quot;seal&quot;},&quot;name&quot;:&quot;Van&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/michaelbrooksjr/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;violet&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:4298,&quot;category&quot;:{&quot;id&quot;:5660,&quot;name&quot;:&quot;elk&quot;},&quot;name&quot;:&quot;Mauro&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/leehambley/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;pink&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:4850,&quot;category&quot;:{&quot;id&quot;:7277,&quot;name&quot;:&quot;swan&quot;},&quot;name&quot;:&quot;Alfredo&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/andrea211087/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;pink&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:8686,&quot;category&quot;:{&quot;id&quot;:8642,&quot;name&quot;:&quot;trout&quot;},&quot;name&quot;:&quot;Janeen&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/gaborenton/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;red&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:7420,&quot;category&quot;:{&quot;id&quot;:5358,&quot;name&quot;:&quot;mammoth&quot;},&quot;name&quot;:&quot;Queenie&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/madshensel/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:4,&quot;name&quot;:&quot;red&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180247,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180248,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180249,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180252,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180258,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:5124,&quot;category&quot;:{&quot;id&quot;:8841,&quot;name&quot;:&quot;goose&quot;},&quot;name&quot;:&quot;Ozzie&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/VinThomas/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:8,&quot;name&quot;:&quot;orange&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:9222968140497180269,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;fish&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:1,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:8302,&quot;category&quot;:{&quot;id&quot;:4162,&quot;name&quot;:&quot;mosquito&quot;},&quot;name&quot;:&quot;Cleta&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/kimcool/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:8,&quot;name&quot;:&quot;fuchsia&quot;}],&quot;status&quot;:&quot;available&quot;},{&quot;id&quot;:3954,&quot;category&quot;:{&quot;id&quot;:5761,&quot;name&quot;:&quot;hornet&quot;},&quot;name&quot;:&quot;Keenan&quot;,&quot;photoUrls&quot;:[&quot;https://s3.amazonaws.com/uifaces/faces/twitter/_shahedk/128.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:9,&quot;name&quot;:&quot;cyan&quot;}],&quot;status&quot;:&quot;available&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:17]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Happypath</a><a class="badge badge-primary" href="karate-tags.html">PetByStatus</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:17]</span>
+                <span class="scenario-name">buscar mascota por su status ok</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>325</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.2:17]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def URL = karate.get(&#39;urlBase&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.3">19:22:51.587 karate.env entorno de anbiente es : null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def path = &#39;/pet/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def ByStatus = &#39;findByStatus&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL+path+ByStatus)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.6">19:22:51.596 urlBase is: https://petstore.swagger.io/v2/pet/findByStatus 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url URL + path + ByStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param status = &#39;pending&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">315</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.12">19:22:51.602 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=pending
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+19:22:51.912 response time in milliseconds: 309
+1 &lt; 200
+1 &lt; Date: Mon, 31 Mar 2025 00:22:51 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:3,&quot;category&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;Cats&quot;},&quot;name&quot;:&quot;Cat 3&quot;,&quot;photoUrls&quot;:[&quot;url1&quot;,&quot;url2&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag3&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;tag4&quot;}],&quot;status&quot;:&quot;pending&quot;},{&quot;id&quot;:6,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Dogs&quot;},&quot;name&quot;:&quot;Dog 3&quot;,&quot;photoUrls&quot;:[&quot;url1&quot;,&quot;url2&quot;],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;tag3&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;tag4&quot;}],&quot;status&quot;:&quot;pending&quot;},{&quot;id&quot;:90,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;karpuz&quot;},&quot;name&quot;:&quot;cekirdekli&quot;,&quot;photoUrls&quot;:[&quot;stringkırmızı&quot;,&quot;kırmızıStr&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Adana Karpuzu&quot;},{&quot;id&quot;:1,&quot;name&quot;:&quot;Cekirdekli&quot;}],&quot;status&quot;:&quot;pending&quot;},{&quot;id&quot;:263,&quot;category&quot;:{&quot;id&quot;:29,&quot;name&quot;:&quot;Regina Clayton&quot;},&quot;name&quot;:&quot;Michael Anderson&quot;,&quot;photoUrls&quot;:[&quot;https://picsum.photos/292/43&quot;],&quot;tags&quot;:[{&quot;id&quot;:969,&quot;name&quot;:&quot;LightPink&quot;}],&quot;status&quot;:&quot;pending&quot;},{&quot;id&quot;:777,&quot;category&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;Cat&quot;},&quot;name&quot;:&quot;Corey Finley&quot;,&quot;photoUrls&quot;:[&quot;https://dummyimage.com/131x742&quot;],&quot;tags&quot;:[{&quot;id&quot;:744,&quot;name&quot;:&quot;AntiqueWhite&quot;}],&quot;status&quot;:&quot;pending&quot;},{&quot;id&quot;:69,&quot;category&quot;:{&quot;id&quot;:932,&quot;name&quot;:&quot;Grace Wilson&quot;},&quot;name&quot;:&quot;Sarah Adams&quot;,&quot;photoUrls&quot;:[&quot;https://picsum.photos/433/428&quot;],&quot;tags&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;fluffy&quot;}],&quot;status&quot;:&quot;pending&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:18]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Happypath</a><a class="badge badge-primary" href="karate-tags.html">PetByStatus</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:18]</span>
+                <span class="scenario-name">buscar mascota por su status ok</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>320</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.3:18]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.3:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def URL = karate.get(&#39;urlBase&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.3">19:22:51.930 karate.env entorno de anbiente es : null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def path = &#39;/pet/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def ByStatus = &#39;findByStatus&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL+path+ByStatus)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.6">19:22:51.934 urlBase is: https://petstore.swagger.io/v2/pet/findByStatus 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url URL + path + ByStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param status = &#39;sold&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">316</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.12">19:22:51.937 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+19:22:52.244 response time in milliseconds: 305
+1 &lt; 200
+1 &lt; Date: Mon, 31 Mar 2025 00:22:52 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:9,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;name&quot;:&quot;King Kong&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:13,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:2260,&quot;name&quot;:&quot;doggie&quot;,&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:7574746,&quot;category&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;Cat&quot;},&quot;name&quot;:&quot;Hardy&quot;,&quot;photoUrls&quot;:[&quot;https://i.pinimg.com/originals/5c/2c/44/5c2c44f16da1caf134c00bc4f9c72ea0.jpg&quot;],&quot;tags&quot;:[{&quot;id&quot;:7805,&quot;name&quot;:&quot;Mainecoon&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:1072,&quot;name&quot;:&quot;doggie&quot;,&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9222968140491042145,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;&lt;string&gt;&quot;},&quot;name&quot;:&quot;&lt;string&gt;&quot;,&quot;photoUrls&quot;:[&quot;&lt;string&gt;&quot;,&quot;&lt;string&gt;&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;&lt;string&gt;&quot;},{&quot;id&quot;:0,&quot;name&quot;:&quot;&lt;string&gt;&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:3634,&quot;name&quot;:&quot;doggie&quot;,&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:9222968140497180197,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;&lt;string&gt;&quot;},&quot;name&quot;:&quot;&lt;string&gt;&quot;,&quot;photoUrls&quot;:[&quot;&lt;string&gt;&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;&lt;string&gt;&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:493,&quot;category&quot;:{&quot;id&quot;:476,&quot;name&quot;:&quot;Deborah Smith&quot;},&quot;name&quot;:&quot;Amber Shields&quot;,&quot;photoUrls&quot;:[&quot;https://dummyimage.com/86x216&quot;],&quot;tags&quot;:[{&quot;id&quot;:436,&quot;name&quot;:&quot;Cyan&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:439,&quot;category&quot;:{&quot;id&quot;:615,&quot;name&quot;:&quot;Brandon Coffey&quot;},&quot;name&quot;:&quot;Curtis Weaver&quot;,&quot;photoUrls&quot;:[&quot;https://picsum.photos/485/932&quot;],&quot;tags&quot;:[{&quot;id&quot;:523,&quot;name&quot;:&quot;GhostWhite&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:5264,&quot;name&quot;:&quot;doggie&quot;,&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:2405,&quot;name&quot;:&quot;doggie&quot;,&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:3475,&quot;name&quot;:&quot;doggie&quot;,&quot;status&quot;:&quot;sold&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
