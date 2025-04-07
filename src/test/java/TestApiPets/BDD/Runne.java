@@ -5,7 +5,7 @@ class Runne {
     
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("Features/PET/get/GET_PetByID.feature")
+        return Karate.run("Features/PET/GET/GET_PetByID.feature")
                 .relativeTo(getClass());
     }    
 

@@ -21,12 +21,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   capture_pageview:false,
   api_transport:'sendBeacon',
   loaded: function(posthog) { 
-    posthog.capture("report_feature",{distinct_id:"8b64aa12-17c1-42bf-8e47-c920a6a069b6",karate_version:"1.5.0",karate_meta:null});
+    posthog.capture("report_feature",{distinct_id:"a5e4a165-2f14-48e3-ad69-3019ff47e9fd",karate_version:"1.5.0",karate_meta:null});
   }
 });
 </script>
 
-    <title>TestApiPets.BDD.Features.PET.get.GET_PetByID</title>
+    <title>TestApiPets.BDD.Features.PET.GET.GET_PetByID</title>
   </head>
   <body>
     <div id="root-container">
@@ -38,8 +38,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">6</div>
-      <div id="nav-fail" class="bg-danger">0</div>
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">10</div>
     </div>
   </div>
   <div id="nav-env">
@@ -49,28 +49,40 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-03-30 08:14:03 p. m.</div>
+    <div>2025-04-06 08:15:38 p. m.</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item passed">
-            <a href="#[1.1:14]"><span>[1.1:14]</span> <span>buscar mascota por su id ok</span></a>
+          <div class="nav-item failed">
+            <a href="#[1.1:16]"><span>[1.1:16]</span> <span>Buscar mascota por su id ok</span></a>
           </div>
-          <div class="nav-item passed">
-            <a href="#[2.1:26]"><span>[2.1:26]</span> <span>buscar mascota por id no existente no ok retornano 404 not found</span></a>
+          <div class="nav-item failed">
+            <a href="#[1.2:17]"><span>[1.2:17]</span> <span>Buscar mascota por su id ok</span></a>
           </div>
-          <div class="nav-item passed">
-            <a href="#[2.2:27]"><span>[2.2:27]</span> <span>buscar mascota por id no existente no ok retornano 404 not found</span></a>
+          <div class="nav-item failed">
+            <a href="#[1.3:18]"><span>[1.3:18]</span> <span>Buscar mascota por su id ok</span></a>
           </div>
-          <div class="nav-item passed">
-            <a href="#[2.3:28]"><span>[2.3:28]</span> <span>buscar mascota por id no existente no ok retornano 404 not found</span></a>
+          <div class="nav-item failed">
+            <a href="#[1.4:19]"><span>[1.4:19]</span> <span>Buscar mascota por su id ok</span></a>
           </div>
-          <div class="nav-item passed">
-            <a href="#[3.1:38]"><span>[3.1:38]</span> <span>buscar mascota por id con caraceteres no validos o especiales</span></a>
+          <div class="nav-item failed">
+            <a href="#[1.5:20]"><span>[1.5:20]</span> <span>Buscar mascota por su id ok</span></a>
           </div>
-          <div class="nav-item passed">
-            <a href="#[3.2:39]"><span>[3.2:39]</span> <span>buscar mascota por id con caraceteres no validos o especiales</span></a>
+          <div class="nav-item failed">
+            <a href="#[2.1:33]"><span>[2.1:33]</span> <span>buscar mascota por id no existente no ok retornano 404 not found</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.2:34]"><span>[2.2:34]</span> <span>buscar mascota por id no existente no ok retornano 404 not found</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.3:35]"><span>[2.3:35]</span> <span>buscar mascota por id no existente no ok retornano 404 not found</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[3.1:46]"><span>[3.1:46]</span> <span>buscar mascota por id con caraceteres no validos o especiales</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[3.2:47]"><span>[3.2:47]</span> <span>buscar mascota por id con caraceteres no validos o especiales</span></a>
           </div>
         </div>
       </div>
@@ -79,34 +91,34 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <span class="feature-label">Feature:</span>
-          <span class="feature-path">TestApiPets/BDD/Features/PET/get/GET_PetByID.feature</span><span class="feature-label">|</span>
-          <span class="feature-name">yo como qa deseo buscar una mascota mediante su id</span>
+          <span class="feature-path">TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Yo como usuario deseo Buscar una mascota por medio de id</span>
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1.1:14]">
+          <div class="scenario-heading" id="[1.1:16]">
             <div class="heading-container">
               <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">Happypath</a><a class="badge badge-primary" href="karate-tags.html">PetByIdOk</a>
+                <a class="badge badge-primary" href="karate-tags.html">Happypath</a><a class="badge badge-primary" href="karate-tags.html">PetByIdOk</a><a class="badge badge-primary" href="karate-tags.html">componente</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1.1:14]</span>
-                <span class="scenario-name">buscar mascota por su id ok</span>
+                Scenario: <span>[1.1:16]</span>
+                <span class="scenario-name">Buscar mascota por su id ok</span>
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1069</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1691</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1.1:14]bg">
+            <div class="step-container" id="[1.1:16]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1.1:14]bg"><div>
+          <div data-parent="[1.1:16]bg"><div>
   
 
   
@@ -119,7 +131,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def URL = karate.get(&#39;urlBase&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">7</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -128,14 +140,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.3">20:14:00.837 karate.env entorno de anbiente es : null 
+  <div class="preformatted" data-parent="1.3">20:15:34.412 karate.env entorno de anbiente es : null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[1.1:14]bg"><div>
+          <div data-parent="[1.1:16]bg"><div>
   
 
   
@@ -163,7 +175,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
-          <div data-parent="[1.1:14]bg"><div>
+          <div data-parent="[1.1:16]bg"><div>
   
 
   
@@ -176,7 +188,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL)</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -185,27 +197,27 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.5">20:14:00.885 urlBase is: https://petstore.swagger.io/v2 
+  <div class="preformatted" data-parent="1.5">20:15:34.456 urlBase is: https://petstore.swagger.io/v2 
 </div>   
 
   
 
 </div>
 </div>
-          <div><div>
+          <div data-parent="[1.1:16]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="1.9">
-      <div class="step-ref passed">9</div>
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url URL + path + 5</span>
+        <span>*</span>&nbsp;<span>def EspectedJson = read(&#39;../Utils/Responses/GET/Get_PetById.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">11</div>
+    <div class="time-cell passed">89</div>
   </div>
 
    
@@ -230,10 +242,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">10</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method GET</span>
+        <span>Given</span>&nbsp;<span>url URL + path + 1</span>
       </div>
     </div>
-    <div class="time-cell passed">1048</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -242,27 +254,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.10">20:14:01.222 request:
-1 &gt; GET https://petstore.swagger.io/v2/pet/5
-1 &gt; Host: petstore.swagger.io
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
-1 &gt; Accept-Encoding: gzip,deflate
-
-
-20:14:01.903 response time in milliseconds: 674
-1 &lt; 200
-1 &lt; Date: Mon, 31 Mar 2025 01:14:01 GMT
-1 &lt; Content-Type: application/json
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;id&quot;:5,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;string&quot;}
-
-</div>   
+     
 
   
 
@@ -275,10 +267,425 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="1.11">
-      <div class="step-ref passed">11</div>
+      <div class="step-ref failed">11</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1582</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.11">20:15:34.959 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/1
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:15:36.139 javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 1572 milliseconds for url: https://petstore.swagger.io/v2/pet/1
+20:15:36.140 classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+When method GET
+http call failed after 1572 milliseconds for url: https://petstore.swagger.io/v2/pet/1
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref skipped">12</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref skipped">13</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response $ == EspectedJson</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:17]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Happypath</a><a class="badge badge-primary" href="karate-tags.html">PetByIdOk</a><a class="badge badge-primary" href="karate-tags.html">componente</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:17]</span>
+                <span class="scenario-name">Buscar mascota por su id ok</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>262</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.2:17]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.3">
+      <div class="step-ref bg-step">3</div>
       
       <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def URL = karate.get(&#39;urlBase&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.3">20:15:36.178 karate.env entorno de anbiente es : null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def path = &#39;/pet/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.5">20:15:36.190 urlBase is: https://petstore.swagger.io/v2 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def EspectedJson = read(&#39;../Utils/Responses/GET/Get_PetById.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url URL + path + 2</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.11">
+      <div class="step-ref failed">11</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell failed">249</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.11">20:15:36.198 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/2
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:15:36.444 javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/2
+20:15:36.445 classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+When method GET
+http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/2
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.12">
+      <div class="step-ref skipped">12</div>
+      
+      <div class="step-cell skipped">
         <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.13">
+      <div class="step-ref skipped">13</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response $ == EspectedJson</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:18]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Happypath</a><a class="badge badge-primary" href="karate-tags.html">PetByIdOk</a><a class="badge badge-primary" href="karate-tags.html">componente</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:18]</span>
+                <span class="scenario-name">Buscar mascota por su id ok</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>252</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.3:18]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.3:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def URL = karate.get(&#39;urlBase&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.3">20:15:36.460 karate.env entorno de anbiente es : null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def path = &#39;/pet/&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -296,41 +703,310 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
-        </div>
-        <div class="scenario">
-          <div class="scenario-heading" id="[2.1:26]">
-            <div class="heading-container">
-              <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">UnhappyPath</a><a class="badge badge-primary" href="karate-tags.html">PetByNoOk</a>
-              </div>
-              <div class="scenario-keyword">
-                Scenario: <span>[2.1:26]</span>
-                <span class="scenario-name">buscar mascota por id no existente no ok retornano 404 not found</span>
-                <span></span>
-              </div>
-            </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>361</span>
-            </div>
-          </div>
-          <div class="step-row">
-            <div class="step-container" id="[2.1:26]bg">
-              <div class="step-ref bg-step">&gt;&gt;</div>
-              <div class="step-cell passed">Background:</div>
-            </div>
-            <div class="time-cell passed"></div>
-          </div>
-          <div data-parent="[2.1:26]bg"><div>
+          <div data-parent="[1.3:18]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="1.3">
+    <div class="step-container" id="3.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.5">20:15:36.464 urlBase is: https://petstore.swagger.io/v2 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def EspectedJson = read(&#39;../Utils/Responses/GET/Get_PetById.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url URL + path + 3</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.11">
+      <div class="step-ref failed">11</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell failed">247</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.11">20:15:36.469 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/3
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:15:36.715 javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/3
+20:15:36.716 classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+When method GET
+http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/3
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.12">
+      <div class="step-ref skipped">12</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.13">
+      <div class="step-ref skipped">13</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response $ == EspectedJson</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.4:19]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Happypath</a><a class="badge badge-primary" href="karate-tags.html">PetByIdOk</a><a class="badge badge-primary" href="karate-tags.html">componente</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.4:19]</span>
+                <span class="scenario-name">Buscar mascota por su id ok</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>250</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.4:19]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.4:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.3">
       <div class="step-ref bg-step">3</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def URL = karate.get(&#39;urlBase&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.3">20:15:36.728 karate.env entorno de anbiente es : null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.4:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def path = &#39;/pet/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.4:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.5">20:15:36.732 urlBase is: https://petstore.swagger.io/v2 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.4:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def EspectedJson = read(&#39;../Utils/Responses/GET/Get_PetById.json&#39;)</span>
       </div>
     </div>
     <div class="time-cell passed">2</div>
@@ -342,20 +1018,198 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.3">20:14:01.973 karate.env entorno de anbiente es : null 
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url URL + path + 4</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.11">
+      <div class="step-ref failed">11</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell failed">245</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.11">20:15:36.737 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/4
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:15:36.980 javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 244 milliseconds for url: https://petstore.swagger.io/v2/pet/4
+20:15:36.980 classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+When method GET
+http call failed after 244 milliseconds for url: https://petstore.swagger.io/v2/pet/4
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[2.1:26]bg"><div>
+          <div><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="1.4">
+    <div class="step-container" id="4.12">
+      <div class="step-ref skipped">12</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.13">
+      <div class="step-ref skipped">13</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response $ == EspectedJson</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.5:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Happypath</a><a class="badge badge-primary" href="karate-tags.html">PetByIdOk</a><a class="badge badge-primary" href="karate-tags.html">componente</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.5:20]</span>
+                <span class="scenario-name">Buscar mascota por su id ok</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>245</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.5:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.5:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def URL = karate.get(&#39;urlBase&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.3">20:15:36.996 karate.env entorno de anbiente es : null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.5:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.4">
       <div class="step-ref bg-step">4</div>
       
       <div class="step-cell passed">
@@ -377,17 +1231,46 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
-          <div data-parent="[2.1:26]bg"><div>
+          <div data-parent="[1.5:20]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="1.5">
+    <div class="step-container" id="5.5">
       <div class="step-ref bg-step">5</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.5">20:15:37.000 urlBase is: https://petstore.swagger.io/v2 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.5:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def EspectedJson = read(&#39;../Utils/Responses/GET/Get_PetById.json&#39;)</span>
       </div>
     </div>
     <div class="time-cell passed">2</div>
@@ -399,7 +1282,76 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.5">20:14:01.980 urlBase is: https://petstore.swagger.io/v2 
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url URL + path + 5</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.11">
+      <div class="step-ref failed">11</div>
+      
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell failed">239</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.11">20:15:37.005 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/5
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:15:37.243 javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 238 milliseconds for url: https://petstore.swagger.io/v2/pet/5
+20:15:37.243 classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+When method GET
+http call failed after 238 milliseconds for url: https://petstore.swagger.io/v2/pet/5
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
 </div>   
 
   
@@ -412,8 +1364,202 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.18">
-      <div class="step-ref passed">18</div>
+    <div class="step-container" id="5.12">
+      <div class="step-ref skipped">12</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.13">
+      <div class="step-ref skipped">13</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response $ == EspectedJson</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.1:33]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">UnhappyPath</a><a class="badge badge-primary" href="karate-tags.html">PetByNoOk</a><a class="badge badge-primary" href="karate-tags.html">componente</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.1:33]</span>
+                <span class="scenario-name">buscar mascota por id no existente no ok retornano 404 not found</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>244</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2.1:33]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2.1:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def URL = karate.get(&#39;urlBase&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.3">20:15:37.260 karate.env entorno de anbiente es : null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.1:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def path = &#39;/pet/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.1:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.5">20:15:37.264 urlBase is: https://petstore.swagger.io/v2 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.1:33]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def EspectedJson = read(&#39;../Utils/Responses/GET/Get_PetById.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.25">
+      <div class="step-ref passed">25</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>url URL + path + &#39;-1&#39;</span>
@@ -440,14 +1586,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.19">
-      <div class="step-ref passed">19</div>
+    <div class="step-container" id="1.26">
+      <div class="step-ref failed">26</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell failed">
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">310</div>
+    <div class="time-cell failed">239</div>
   </div>
 
    
@@ -456,26 +1602,20 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.19">20:14:01.983 request:
+  <div class="preformatted" data-parent="1.26">20:15:37.268 request:
 1 &gt; GET https://petstore.swagger.io/v2/pet/-1
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-20:14:02.290 response time in milliseconds: 306
-1 &lt; 404
-1 &lt; Date: Mon, 31 Mar 2025 01:14:02 GMT
-1 &lt; Content-Type: application/json
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}
-
+20:15:37.506 javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 238 milliseconds for url: https://petstore.swagger.io/v2/pet/-1
+20:15:37.506 classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
+When method GET
+http call failed after 238 milliseconds for url: https://petstore.swagger.io/v2/pet/-1
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
 </div>   
 
   
@@ -488,14 +1628,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.20">
-      <div class="step-ref passed">20</div>
+    <div class="step-container" id="1.27">
+      <div class="step-ref skipped">27</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>Then</span>&nbsp;<span>status 404</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -516,14 +1656,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.21">
-      <div class="step-ref passed">21</div>
+    <div class="step-container" id="1.28">
+      <div class="step-ref skipped">28</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.message == &#39;Pet not found&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">42</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -544,14 +1684,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.22">
-      <div class="step-ref passed">22</div>
+    <div class="step-container" id="1.29">
+      <div class="step-ref skipped">29</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.type == &#39;error&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -572,14 +1712,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.23">
-      <div class="step-ref passed">23</div>
+    <div class="step-container" id="1.30">
+      <div class="step-ref skipped">30</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.code == 1</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -596,29 +1736,29 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[2.2:27]">
+          <div class="scenario-heading" id="[2.2:34]">
             <div class="heading-container">
               <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">UnhappyPath</a><a class="badge badge-primary" href="karate-tags.html">PetByNoOk</a>
+                <a class="badge badge-primary" href="karate-tags.html">UnhappyPath</a><a class="badge badge-primary" href="karate-tags.html">PetByNoOk</a><a class="badge badge-primary" href="karate-tags.html">componente</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[2.2:27]</span>
+                Scenario: <span>[2.2:34]</span>
                 <span class="scenario-name">buscar mascota por id no existente no ok retornano 404 not found</span>
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>329</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>246</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[2.2:27]bg">
+            <div class="step-container" id="[2.2:34]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[2.2:27]bg"><div>
+          <div data-parent="[2.2:34]bg"><div>
   
 
   
@@ -640,14 +1780,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.3">20:14:02.349 karate.env entorno de anbiente es : null 
+  <div class="preformatted" data-parent="2.3">20:15:37.522 karate.env entorno de anbiente es : null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[2.2:27]bg"><div>
+          <div data-parent="[2.2:34]bg"><div>
   
 
   
@@ -675,7 +1815,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
-          <div data-parent="[2.2:27]bg"><div>
+          <div data-parent="[2.2:34]bg"><div>
   
 
   
@@ -697,8 +1837,36 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.5">20:14:02.353 urlBase is: https://petstore.swagger.io/v2 
+  <div class="preformatted" data-parent="2.5">20:15:37.525 urlBase is: https://petstore.swagger.io/v2 
 </div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.2:34]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def EspectedJson = read(&#39;../Utils/Responses/GET/Get_PetById.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
 
   
 
@@ -710,8 +1878,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="2.18">
-      <div class="step-ref passed">18</div>
+    <div class="step-container" id="2.25">
+      <div class="step-ref passed">25</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>url URL + path + &#39;1000&#39;</span>
@@ -738,14 +1906,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="2.19">
-      <div class="step-ref passed">19</div>
+    <div class="step-container" id="2.26">
+      <div class="step-ref failed">26</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell failed">
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">317</div>
+    <div class="time-cell failed">242</div>
   </div>
 
    
@@ -754,26 +1922,20 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.19">20:14:02.357 request:
+  <div class="preformatted" data-parent="2.26">20:15:37.529 request:
 1 &gt; GET https://petstore.swagger.io/v2/pet/1000
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-20:14:02.665 response time in milliseconds: 305
-1 &lt; 404
-1 &lt; Date: Mon, 31 Mar 2025 01:14:02 GMT
-1 &lt; Content-Type: application/json
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}
-
+20:15:37.770 javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 241 milliseconds for url: https://petstore.swagger.io/v2/pet/1000
+20:15:37.770 classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
+When method GET
+http call failed after 241 milliseconds for url: https://petstore.swagger.io/v2/pet/1000
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
 </div>   
 
   
@@ -786,14 +1948,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="2.20">
-      <div class="step-ref passed">20</div>
+    <div class="step-container" id="2.27">
+      <div class="step-ref skipped">27</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>Then</span>&nbsp;<span>status 404</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -814,14 +1976,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="2.21">
-      <div class="step-ref passed">21</div>
+    <div class="step-container" id="2.28">
+      <div class="step-ref skipped">28</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.message == &#39;Pet not found&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -842,14 +2004,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="2.22">
-      <div class="step-ref passed">22</div>
+    <div class="step-container" id="2.29">
+      <div class="step-ref skipped">29</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.type == &#39;error&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -870,14 +2032,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="2.23">
-      <div class="step-ref passed">23</div>
+    <div class="step-container" id="2.30">
+      <div class="step-ref skipped">30</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.code == 1</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -894,29 +2056,29 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[2.3:28]">
+          <div class="scenario-heading" id="[2.3:35]">
             <div class="heading-container">
               <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">UnhappyPath</a><a class="badge badge-primary" href="karate-tags.html">PetByNoOk</a>
+                <a class="badge badge-primary" href="karate-tags.html">UnhappyPath</a><a class="badge badge-primary" href="karate-tags.html">PetByNoOk</a><a class="badge badge-primary" href="karate-tags.html">componente</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[2.3:28]</span>
+                Scenario: <span>[2.3:35]</span>
                 <span class="scenario-name">buscar mascota por id no existente no ok retornano 404 not found</span>
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>337</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>254</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[2.3:28]bg">
+            <div class="step-container" id="[2.3:35]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[2.3:28]bg"><div>
+          <div data-parent="[2.3:35]bg"><div>
   
 
   
@@ -938,14 +2100,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="3.3">20:14:02.723 karate.env entorno de anbiente es : null 
+  <div class="preformatted" data-parent="3.3">20:15:37.786 karate.env entorno de anbiente es : null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[2.3:28]bg"><div>
+          <div data-parent="[2.3:35]bg"><div>
   
 
   
@@ -973,7 +2135,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
-          <div data-parent="[2.3:28]bg"><div>
+          <div data-parent="[2.3:35]bg"><div>
   
 
   
@@ -986,6 +2148,35 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL)</span>
       </div>
     </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.5">20:15:37.791 urlBase is: https://petstore.swagger.io/v2 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.3:35]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def EspectedJson = read(&#39;../Utils/Responses/GET/Get_PetById.json&#39;)</span>
+      </div>
+    </div>
     <div class="time-cell passed">2</div>
   </div>
 
@@ -995,8 +2186,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="3.5">20:14:02.727 urlBase is: https://petstore.swagger.io/v2 
-</div>   
+     
 
   
 
@@ -1008,8 +2198,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="3.18">
-      <div class="step-ref passed">18</div>
+    <div class="step-container" id="3.25">
+      <div class="step-ref passed">25</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>url URL + path + &#39;2000&#39;</span>
@@ -1036,14 +2226,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="3.19">
-      <div class="step-ref passed">19</div>
+    <div class="step-container" id="3.26">
+      <div class="step-ref failed">26</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell failed">
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">328</div>
+    <div class="time-cell failed">248</div>
   </div>
 
    
@@ -1052,26 +2242,20 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="3.19">20:14:02.731 request:
+  <div class="preformatted" data-parent="3.26">20:15:37.797 request:
 1 &gt; GET https://petstore.swagger.io/v2/pet/2000
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-20:14:03.053 response time in milliseconds: 319
-1 &lt; 404
-1 &lt; Date: Mon, 31 Mar 2025 01:14:03 GMT
-1 &lt; Content-Type: application/json
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}
-
+20:15:38.042 javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 247 milliseconds for url: https://petstore.swagger.io/v2/pet/2000
+20:15:38.044 classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
+When method GET
+http call failed after 247 milliseconds for url: https://petstore.swagger.io/v2/pet/2000
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
 </div>   
 
   
@@ -1084,14 +2268,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="3.20">
-      <div class="step-ref passed">20</div>
+    <div class="step-container" id="3.27">
+      <div class="step-ref skipped">27</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>Then</span>&nbsp;<span>status 404</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -1112,14 +2296,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="3.21">
-      <div class="step-ref passed">21</div>
+    <div class="step-container" id="3.28">
+      <div class="step-ref skipped">28</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.message == &#39;Pet not found&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -1140,14 +2324,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="3.22">
-      <div class="step-ref passed">22</div>
+    <div class="step-container" id="3.29">
+      <div class="step-ref skipped">29</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.type == &#39;error&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -1168,14 +2352,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="3.23">
-      <div class="step-ref passed">23</div>
+    <div class="step-container" id="3.30">
+      <div class="step-ref skipped">30</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.code == 1</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -1192,29 +2376,29 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[3.1:38]">
+          <div class="scenario-heading" id="[3.1:46]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">UnhappyPath</a><a class="badge badge-primary" href="karate-tags.html">PetByNoOk</a><a class="badge badge-primary" href="karate-tags.html">componente</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[3.1:38]</span>
+                Scenario: <span>[3.1:46]</span>
                 <span class="scenario-name">buscar mascota por id con caraceteres no validos o especiales</span>
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>321</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>249</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[3.1:38]bg">
+            <div class="step-container" id="[3.1:46]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[3.1:38]bg"><div>
+          <div data-parent="[3.1:46]bg"><div>
   
 
   
@@ -1236,14 +2420,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.3">20:14:03.084 karate.env entorno de anbiente es : null 
+  <div class="preformatted" data-parent="1.3">20:15:38.051 karate.env entorno de anbiente es : null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[3.1:38]bg"><div>
+          <div data-parent="[3.1:46]bg"><div>
   
 
   
@@ -1254,6 +2438,63 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def path = &#39;/pet/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:46]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.5">20:15:38.054 urlBase is: https://petstore.swagger.io/v2 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:46]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def EspectedJson = read(&#39;../Utils/Responses/GET/Get_PetById.json&#39;)</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -1271,43 +2512,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
-          <div data-parent="[3.1:38]bg"><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="1.5">
-      <div class="step-ref bg-step">5</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>karate.log(&#39;urlBase is:&#39;, URL)</span>
-      </div>
-    </div>
-    <div class="time-cell passed">2</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="1.5">20:14:03.090 urlBase is: https://petstore.swagger.io/v2 
-</div>   
-
-  
-
-</div>
-</div>
           <div><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="1.31">
-      <div class="step-ref passed">31</div>
+    <div class="step-container" id="1.39">
+      <div class="step-ref passed">39</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>url URL + path + &#39;aspdasd$22&#39;</span>
@@ -1334,14 +2546,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.32">
-      <div class="step-ref passed">32</div>
+    <div class="step-container" id="1.40">
+      <div class="step-ref failed">40</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell failed">
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">310</div>
+    <div class="time-cell failed">243</div>
   </div>
 
    
@@ -1350,26 +2562,20 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.32">20:14:03.094 request:
+  <div class="preformatted" data-parent="1.40">20:15:38.060 request:
 1 &gt; GET https://petstore.swagger.io/v2/pet/aspdasd$22
 1 &gt; Host: petstore.swagger.io
 1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-20:14:03.399 response time in milliseconds: 303
-1 &lt; 404
-1 &lt; Date: Mon, 31 Mar 2025 01:14:03 GMT
-1 &lt; Content-Type: application/json
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;code&quot;:404,&quot;type&quot;:&quot;unknown&quot;,&quot;message&quot;:&quot;java.lang.NumberFormatException: For input string: \&quot;aspdasd$22\&quot;&quot;}
-
+20:15:38.302 javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 243 milliseconds for url: https://petstore.swagger.io/v2/pet/aspdasd$22
+20:15:38.303 classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:40
+When method GET
+http call failed after 243 milliseconds for url: https://petstore.swagger.io/v2/pet/aspdasd$22
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:40
 </div>   
 
   
@@ -1382,14 +2588,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.33">
-      <div class="step-ref passed">33</div>
+    <div class="step-container" id="1.41">
+      <div class="step-ref skipped">41</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>Then</span>&nbsp;<span>status 404</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -1410,14 +2616,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.34">
-      <div class="step-ref passed">34</div>
+    <div class="step-container" id="1.42">
+      <div class="step-ref skipped">42</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.code == 404</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -1438,14 +2644,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="1.35">
-      <div class="step-ref passed">35</div>
+    <div class="step-container" id="1.43">
+      <div class="step-ref skipped">43</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.type == &#39;unknown&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -1462,29 +2668,29 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[3.2:39]">
+          <div class="scenario-heading" id="[3.2:47]">
             <div class="heading-container">
               <div class="scenario-tags">
-                
+                <a class="badge badge-primary" href="karate-tags.html">UnhappyPath</a><a class="badge badge-primary" href="karate-tags.html">PetByNoOk</a><a class="badge badge-primary" href="karate-tags.html">componente</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[3.2:39]</span>
+                Scenario: <span>[3.2:47]</span>
                 <span class="scenario-name">buscar mascota por id con caraceteres no validos o especiales</span>
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>319</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>255</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[3.2:39]bg">
+            <div class="step-container" id="[3.2:47]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[3.2:39]bg"><div>
+          <div data-parent="[3.2:47]bg"><div>
   
 
   
@@ -1506,14 +2712,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.3">20:14:03.432 karate.env entorno de anbiente es : null 
+  <div class="preformatted" data-parent="2.3">20:15:38.317 karate.env entorno de anbiente es : null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[3.2:39]bg"><div>
+          <div data-parent="[3.2:47]bg"><div>
   
 
   
@@ -1541,7 +2747,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
-          <div data-parent="[3.2:39]bg"><div>
+          <div data-parent="[3.2:47]bg"><div>
   
 
   
@@ -1563,24 +2769,24 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.5">20:14:03.436 urlBase is: https://petstore.swagger.io/v2 
+  <div class="preformatted" data-parent="2.5">20:15:38.321 urlBase is: https://petstore.swagger.io/v2 
 </div>   
 
   
 
 </div>
 </div>
-          <div><div>
+          <div data-parent="[3.2:47]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="2.31">
-      <div class="step-ref passed">31</div>
+    <div class="step-container" id="2.6">
+      <div class="step-ref bg-step">6</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url URL + path + &#39;0a&#39;</span>
+        <span>*</span>&nbsp;<span>def EspectedJson = read(&#39;../Utils/Responses/GET/Get_PetById.json&#39;)</span>
       </div>
     </div>
     <div class="time-cell passed">2</div>
@@ -1604,87 +2810,11 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="2.32">
-      <div class="step-ref passed">32</div>
+    <div class="step-container" id="2.39">
+      <div class="step-ref passed">39</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method GET</span>
-      </div>
-    </div>
-    <div class="time-cell passed">312</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="2.32">20:14:03.441 request:
-1 &gt; GET https://petstore.swagger.io/v2/pet/0a
-1 &gt; Host: petstore.swagger.io
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
-1 &gt; Accept-Encoding: gzip,deflate
-
-
-20:14:03.746 response time in milliseconds: 304
-1 &lt; 404
-1 &lt; Date: Mon, 31 Mar 2025 01:14:03 GMT
-1 &lt; Content-Type: application/json
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;code&quot;:404,&quot;type&quot;:&quot;unknown&quot;,&quot;message&quot;:&quot;java.lang.NumberFormatException: For input string: \&quot;0a\&quot;&quot;}
-
-</div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="2.33">
-      <div class="step-ref passed">33</div>
-      
-      <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>status 404</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="2.34">
-      <div class="step-ref passed">34</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match response.code == 404</span>
+        <span>Given</span>&nbsp;<span>url URL + path + &#39;0a&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -1708,14 +2838,112 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="2.35">
-      <div class="step-ref passed">35</div>
+    <div class="step-container" id="2.40">
+      <div class="step-ref failed">40</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell failed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell failed">249</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.40">20:15:38.327 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/0a
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+20:15:38.573 javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/0a
+20:15:38.574 classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:40
+When method GET
+http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/0a
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:40
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.41">
+      <div class="step-ref skipped">41</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.42">
+      <div class="step-ref skipped">42</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.code == 404</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.43">
+      <div class="step-ref skipped">43</div>
+      
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>match response.type == &#39;unknown&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    

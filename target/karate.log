@@ -1694,3 +1694,849 @@ classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:33
 1 < Server: Jetty(9.2.9.v20150224)
 {"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"0a\""}
 
+19:51:44.406 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:51:45.990 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:51:46.034 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:51:46.053 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils.Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils.Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils.Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:51:46.083 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:51:46.087 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:51:46.090 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils.Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils.Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils.Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:51:46.104 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:51:46.107 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:51:46.110 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils.Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils.Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils.Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:51:46.125 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:51:46.132 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:51:46.136 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils.Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils.Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils.Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:51:46.153 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:51:46.156 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:51:46.160 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils.Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils.Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils.Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:51:46.175 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:51:46.181 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:51:46.184 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils.Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils.Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils.Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:51:46.202 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:51:46.206 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:51:46.210 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils.Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils.Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils.Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:51:46.227 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:51:46.231 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:51:46.237 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils.Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils.Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils.Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:51:46.260 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:51:46.269 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:51:46.273 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils.Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils.Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils.Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:51:46.308 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:51:46.317 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:51:46.321 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils.Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils.Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils.Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:53:23.850 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:53:25.245 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:53:25.287 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:53:25.304 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\TestApiPets\BDD\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:53:25.333 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:53:25.337 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:53:25.340 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\TestApiPets\BDD\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:53:25.356 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:53:25.361 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:53:25.366 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\TestApiPets\BDD\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:53:25.381 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:53:25.385 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:53:25.390 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\TestApiPets\BDD\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:53:25.402 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:53:25.406 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:53:25.410 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\TestApiPets\BDD\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:53:25.427 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:53:25.432 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:53:25.435 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\TestApiPets\BDD\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:53:25.449 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:53:25.453 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:53:25.459 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\TestApiPets\BDD\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:53:25.492 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:53:25.498 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:53:25.502 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\TestApiPets\BDD\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:53:25.519 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:53:25.524 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:53:25.527 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\TestApiPets\BDD\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:53:25.543 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:53:25.547 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:53:25.550 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('TestApiPets/BDD/Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\TestApiPets\BDD\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:54:54.819 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:54:56.313 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:54:56.367 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:54:56.385 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('./Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('./Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\.\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:54:56.423 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:54:56.428 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:54:56.431 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('./Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('./Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\.\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:54:56.443 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:54:56.448 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:54:56.452 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('./Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('./Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\.\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:54:56.470 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:54:56.475 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:54:56.479 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('./Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('./Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\.\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:54:56.495 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:54:56.500 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:54:56.507 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('./Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('./Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\.\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:54:56.525 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:54:56.534 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:54:56.543 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('./Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('./Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\.\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:54:56.563 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:54:56.568 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:54:56.572 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('./Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('./Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\.\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:54:56.591 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:54:56.600 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:54:56.604 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('./Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('./Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\.\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:54:56.619 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:54:56.624 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:54:56.627 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('./Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('./Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\.\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:54:56.642 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:54:56.646 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:54:56.649 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('./Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('./Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\.\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:56:30.809 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:56:32.359 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:56:32.414 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:56:32.432 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:56:32.462 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:56:32.466 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:56:32.469 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:56:32.484 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:56:32.489 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:56:32.494 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:56:32.511 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:56:32.516 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:56:32.522 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:56:32.539 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:56:32.543 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:56:32.547 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:56:32.562 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:56:32.566 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:56:32.571 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:56:32.596 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:56:32.606 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:56:32.610 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:56:32.631 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:56:32.638 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:56:32.642 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:56:32.664 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:56:32.677 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:56:32.679 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+19:56:32.693 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+19:56:32.697 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+19:56:32.699 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+* def EspectedJson = read('../Utils/Responses/GET/Get_PetById.json')
+js failed:
+>>>>
+01: read('../Utils/Responses/GET/Get_PetById.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Practicas\API_Prueba\KarateTestApiPets\target\test-classes\TestApiPets\BDD\Features\PET\get\..\Utils\Responses\GET\Get_PetById.json (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:109)
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/get/GET_PetByID.feature:6
+20:15:33.012 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:15:34.409 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+20:15:34.455 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+20:15:34.959 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:15:36.138 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 1572 milliseconds for url: https://petstore.swagger.io/v2/pet/1
+20:15:36.140 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+When method GET
+http call failed after 1572 milliseconds for url: https://petstore.swagger.io/v2/pet/1
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+20:15:36.178 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+20:15:36.190 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+20:15:36.198 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/2
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:15:36.444 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/2
+20:15:36.445 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+When method GET
+http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/2
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+20:15:36.460 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+20:15:36.463 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+20:15:36.468 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/3
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:15:36.715 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/3
+20:15:36.715 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+When method GET
+http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/3
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+20:15:36.727 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+20:15:36.731 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+20:15:36.737 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/4
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:15:36.979 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 244 milliseconds for url: https://petstore.swagger.io/v2/pet/4
+20:15:36.980 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+When method GET
+http call failed after 244 milliseconds for url: https://petstore.swagger.io/v2/pet/4
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+20:15:36.996 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+20:15:37.000 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+20:15:37.005 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/5
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:15:37.242 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 238 milliseconds for url: https://petstore.swagger.io/v2/pet/5
+20:15:37.243 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+When method GET
+http call failed after 238 milliseconds for url: https://petstore.swagger.io/v2/pet/5
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:11
+20:15:37.259 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+20:15:37.264 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+20:15:37.268 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/-1
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:15:37.505 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 238 milliseconds for url: https://petstore.swagger.io/v2/pet/-1
+20:15:37.506 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
+When method GET
+http call failed after 238 milliseconds for url: https://petstore.swagger.io/v2/pet/-1
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
+20:15:37.522 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+20:15:37.524 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+20:15:37.529 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/1000
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:15:37.769 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 241 milliseconds for url: https://petstore.swagger.io/v2/pet/1000
+20:15:37.770 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
+When method GET
+http call failed after 241 milliseconds for url: https://petstore.swagger.io/v2/pet/1000
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
+20:15:37.786 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+20:15:37.791 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+20:15:37.797 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/2000
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:15:38.042 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 247 milliseconds for url: https://petstore.swagger.io/v2/pet/2000
+20:15:38.043 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
+When method GET
+http call failed after 247 milliseconds for url: https://petstore.swagger.io/v2/pet/2000
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:26
+20:15:38.051 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+20:15:38.054 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+20:15:38.059 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/aspdasd$22
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:15:38.301 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 243 milliseconds for url: https://petstore.swagger.io/v2/pet/aspdasd$22
+20:15:38.302 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:40
+When method GET
+http call failed after 243 milliseconds for url: https://petstore.swagger.io/v2/pet/aspdasd$22
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:40
+20:15:38.316 [main] INFO  com.intuit.karate - karate.env entorno de anbiente es : null 
+20:15:38.321 [main] INFO  com.intuit.karate - urlBase is: https://petstore.swagger.io/v2 
+20:15:38.326 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/0a
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.13)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:15:38.573 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target, http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/0a
+20:15:38.573 [main] ERROR com.intuit.karate - classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:40
+When method GET
+http call failed after 248 milliseconds for url: https://petstore.swagger.io/v2/pet/0a
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+classpath:TestApiPets/BDD/Features/PET/GET/GET_PetByID.feature:40
+20:18:42.869 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
