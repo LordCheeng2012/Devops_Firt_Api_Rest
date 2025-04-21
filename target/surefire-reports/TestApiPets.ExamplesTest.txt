@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestApiPets.ExamplesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.423 s - in TestApiPets.ExamplesTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.251 s <<< FAILURE! - in TestApiPets.ExamplesTest
+TestApiPets.ExamplesTest.testParallel  Time elapsed: 6.179 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+js failed:
+>>>>
+01: karate.set(responseStatus,res)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: invokeMember (set) on com.intuit.karate.core.ScenarioBridge failed due to: no applicable overload found (overloads: [Method[public void com.intuit.karate.core.ScenarioBridge.set(java.lang.String,java.lang.String,java.lang.Object)], Method[public void com.intuit.karate.core.ScenarioBridge.set(java.util.Map)], Method[public void com.intuit.karate.core.ScenarioBridge.set(java.lang.String,org.graalvm.polyglot.Value)]], arguments: [415 (Integer), com.oracle.truffle.host.HostProxy@4c8ac2aa (HostProxy)])
+- <js>.:program(Unnamed:1)
+
+classpath:TestApiPets/BDD/Features/PET/Components/POST/POST-Crear-Mascota.feature:47 ==> expected: <0> but was: <1>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at TestApiPets.ExamplesTest.testParallel(ExamplesTest.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

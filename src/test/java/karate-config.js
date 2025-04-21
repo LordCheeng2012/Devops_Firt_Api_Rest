@@ -10,6 +10,7 @@ function fn() {
   }
   if (env == 'dev') {
     // customize
+    //https://petstore.swagger.io/v2/swagger.json//
     // e.g. config.foo = 'bar';
     config.urlBase = 'https://petstore.swagger.io/v2';
   } else if (env == 'e2e') {

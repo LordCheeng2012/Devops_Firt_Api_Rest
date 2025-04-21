@@ -9,9 +9,10 @@ class ExamplesTest {
 
     @Test
     void testParallel() {
-        Results results = Runner.path("classpath:TestApiPets")
-                //.outputCucumberJson(true)
-                .parallel(5);
+        //implementar el runner de karate para la logica AND
+        Results results = Runner.path("classpath:TestApiPets/BDD")
+                        .tags("@componente").parallel(5);
+                //.outputCucumberJson(tru
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
     }
 

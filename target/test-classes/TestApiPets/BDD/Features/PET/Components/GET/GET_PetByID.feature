@@ -3,24 +3,25 @@ Feature: Yo como usuario deseo Buscar una mascota por medio de id
     * def URL = karate.get('urlBase')
     * def path = '/pet/'
     * karate.log('urlBase is:', URL)
-    * def EspectedJson = read('../Utils/Responses/GET/Get_PetById.json')
+    * def Espec = read('../../Utils/Responses/GET/EspectedSchema.json')
 
-  @PetByIdOk @Happypath @componente
+  @ID-455 @Happypath @componente
   Scenario Outline: Buscar mascota por su id ok
     Given url URL + path + <id>
     When method GET
     Then status 200
-    And match response $ == EspectedJson
+    ##validacion en integracion de datos
+    And match response == Espec
+    And match response.id == <id>
+    And match response.name ==<namePet>
     Examples:
-      | id |Name|
-      | 1 |doggie|
-      | 2 |Cats|
-      | 3 |Cats|
-      | 4 |Dogs |
-      | 5 |string|
+      |id|namePet|
+      |1|"doggie"|
+      |2|"Tom"|
+      |3|"Whiskers Updated"|
+      |5|"doggie"|
 
-
-@PetByNoOk @UnhappyPath @componente
+@ID-400 @UnhappyPath @componente
 Scenario Outline: buscar mascota por id no existente no ok retornano 404 not found
   Given url URL + path + '<id>'
   When method GET
@@ -34,7 +35,7 @@ Scenario Outline: buscar mascota por id no existente no ok retornano 404 not fou
   |  1000 |
   |  2000 |
 
-  @PetByNoOk @UnhappyPath @componente
+@ID-404  @UnhappyPath @componente
 Scenario Outline: buscar mascota por id con caraceteres no validos o especiales
   Given url URL + path + '<id>'
   When method GET
@@ -46,3 +47,14 @@ Scenario Outline: buscar mascota por id con caraceteres no validos o especiales
   | aspdasd$22|
   |  0a |
 
+  @ID-406 @UnhappyPath @componente
+  Scenario Outline: buscar mascota por id vacio
+    Given url URL + path + '<id>'
+    When method GET
+    Then status 404
+    And match response.code == 404
+    And match response.type == 'unknown'
+    Examples:
+      |id|
+      | aspdasd$22|
+      |  0a |
