@@ -10,6 +10,7 @@ public class FirstApiRestApplication {
 
 		try {
 			SpringApplication.run(FirstApiRestApplication.class, args);
+			System.out.println("Se inicia la App para integracion continua CI");
 		} catch (Exception e) {
 		
 			System.out.println("Error al iniciar la aplicacion: " + e.getMessage());

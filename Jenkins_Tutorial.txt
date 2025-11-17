@@ -1,0 +1,64 @@
+JENKINS CICD
+
+Util para automatizar prosesos de despliegues agrupando ciertas actividades en conjunto
+denominadas pipeline,jenkins es muy util a la hora de automatizar procesos 
+repetitivos.ademas que podremos preparar despliegues y controlar despliegues.
+
+Uso practico 
+
+Instalacion ->
+
+1. Crear un dockerFile para construir la imagen de jenkins y usarlo en un contenedor de 
+docker
+
+2. ejecuta y crea su imagen segun el dockerFile instanciado : 
+'Docker build -t jenkins CI .'
+
+ahora crearemos un contenedor que instancie la imagen 
+
+´Docker run -d -p 8080:8080 -p 5000:5000 --name jenkins_container jenkins-ci/cd´
+ojo: podemos ver errores en pila con 'docker logs {name_container}'
+
+nota: para crear un contenedor con un puerto, hay que tener en cuenta que 
+debemos asignarle un puerto especifico para saber cual de ellos esta disponible
+
+usa esto para consultar si un puerto esta en uso : 
+    - netstat -ano -> para listar todos los puertos ::powershell
+    - netstat -na | find "8080" ::cmd
+    - netstat -na | Select-string "8080" ::powershell
+    - netstat -na  | grep "8080"
+
+
+3. iniciar session con jenkins 
+    utiliza docker logs para visualizar la contraseña del servidor de jenkins [docker logs ]
+    
+    :: credeciales de acesso 
+    usuario :MoisesDev
+    contraseña:1234
+
+4. verificar la terminal de jenkins luego de iniciar una construccion 
+### Uso de `docker exec`
+
+Permite ejecutar comandos dentro de un contenedor ya en ejecución.  
+Sintaxis:
+```sh
+docker exec [opciones] <id_o_nombre_contenedor> <comando>
+
+  dentro de ella podemos listar 
+  '''
+    - ls -la /var/jenkins_home/workspace/Mi_First_Job -> directorio de jenkins del proyecto
+    deberias ver la lista de archivos que jenkins tiene alojado en su servidor 
+
+5. Creacion de pipeline con webhoock
+
+  prerequisitos :
+  - tener ngrok para exponer mi puerto local 
+  - el puerto del local debe apuntar al servidor de jenkins para que pueda escuchar 
+  los cambios de git 
+  
+
+
+
+
+
+
