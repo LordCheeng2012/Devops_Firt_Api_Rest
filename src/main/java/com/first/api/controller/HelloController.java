@@ -49,7 +49,7 @@ public class HelloController {
      //Otro comentario
     @GetMapping("/Status")
     public String status(){
-        return "Estado:[ACTIVO]";
+        return "Estado: se cambia el codigo de logeo";
     }
 }
 
